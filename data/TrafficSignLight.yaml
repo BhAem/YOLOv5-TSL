@@ -1,0 +1,17 @@
+train: TrafficSignLight/images/train
+val: TrafficSignLight/images/test
+valrain: TrafficSignLight/images/testrain
+valsnow: TrafficSignLight/images/testsnow
+valfog: TrafficSignLight/images/testfog
+valnight: TrafficSignLight/images/testnight
+
+nc: 46 # 类别数量
+
+names: ['NoMotorVehicles', 'NoGoodVehicles', 'NoMotorcycles', 'NoCycling', 'NoPedestrians', 'NoLeftTurn', 'NoRightTurn',
+        'NoUTurn', 'NoOvertaking', 'NoHonking', 'LimitHeight', 'SpeedLimitOf15', 'SpeedLimitOf20', 'SpeedLimitOf30',
+        'SpeedLimitOf40', 'SpeedLimitOf50', 'SpeedLimitOf60', 'SpeedLimitOf70', 'SpeedLimitOf80', 'SpeedLimitOf100', 'SpeedLimitOf120',
+        'CrossRoad', 'LeftSideRoad', 'RightSideRoad',  'RightCurve',
+         'WatchOutPeople', 'WatchOutKids', 'WatchOutSlow', 'Caution', 'WatchOutRightConfluence',
+        'TurnLeftAhead', 'TurnRightAhead',
+        'KeepRight', 'CircleRoad', 'MotorTrack', 'CycleTrack', 'RedLight', 'YellowLight', 'GreenLight',
+        'Yield', 'NoParking', 'Notin',  'Crosswalk', 'Parking', 'UTurn', 'WeightLimit']  # class names
